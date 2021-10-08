@@ -8,3 +8,13 @@ int mystrlen(char *s) {
   }
   return toRet;
 }
+
+char * mystrcpy(char *dest, char *source) {
+  char *destNew = dest;
+  while (*source) {
+    *dest = *source;
+    dest++;
+    source++;
+  }
+  return destNew;
+}
