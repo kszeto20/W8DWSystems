@@ -26,13 +26,12 @@ int main() {
   printf("\nTesting strncpy(s1, s3, 3):\n");
   printf("[standard]:\t[%s]\n", strncpy(s1, s3, 3) );
   printf("[mine]:\t\t[%s]\n", mystrncpy(s1, s3, 3) );
-*/
-/*
+
   printf("\nTesting strcat(s1, s3):\n");
   printf("[standard]:\t[%s]\n", strcat(s1, s3) );
   s1[5] = 0;
   printf("[mine]:\t\t[%s]\n", mystrcat(s1, s3) );
-
+*/
   printf("\nTesting strncat(s1, s2, 3):\n");
   printf("[standard]:\t[%s]\n", strncat(s1, s2, 3) );
   s1[12] = 0;
@@ -60,6 +59,6 @@ int main() {
   printf("\tComparting abc to abc:\n");
   printf("\t\t[standard]:\t[%d]\n", strcmp("abc", "abc") );
   printf("\t\t[mine]:\t\t[%d]\n", mystrcmp("abc", "abc") );
-*/
+
   return 0;
 }
